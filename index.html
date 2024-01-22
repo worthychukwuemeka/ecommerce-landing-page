@@ -1,0 +1,328 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Day 33/100 - E-Commerce Landing Page</title>
+  </head>
+  <body>
+    <header class="header">
+      <nav>
+        <div class="nav__logo"><a href="#">PinkVogue</a></div>
+        <ul class="nav__links" id="nav-links">
+          <li class="link"><a href="#home">Home</a></li>
+          <li class="link"><a href="#choose">About Us</a></li>
+          <li class="link"><a href="#craft">Catalog</a></li>
+          <li class="link"><a href="#testimonial">Testimonials</a></li>
+          <li class="link"><a href="#blog">Blog</a></li>
+        </ul>
+        <div class="nav__menu__btn" id="menu-btn">
+          <span><i class="ri-menu-line"></i></span>
+        </div>
+        <div class="nav__actions">
+          <span><i class="ri-search-fill"></i></span>
+          <span><i class="ri-user-fill"></i></span>
+        </div>
+      </nav>
+      <div class="section__container header__container" id="home">
+        <h1>Discover Your Pink Fashion Statement</h1>
+        <p>
+          Turn your wardrobe into a fashionable and pink paradise with our latest collection!
+        </p>
+        <form action="/">
+          <input type="text" placeholder="Search Catalog" />
+          <button><i class="ri-search-line"></i></button>
+        </form>
+        <a href="#choose"><i class="ri-arrow-down-double-line"></i></a>
+      </div>
+    </header>
+
+    <section class="section__container choose__container" id="choose">
+      <img class="choose__bg" src="assets/pink-dots.png" alt="bg" />
+      <div class="choose__content">
+        <h2 class="section__header">Why Choose Pink Vogue</h2>
+        <p class="section__subheader">
+          Experience Unmatched Style and Expertise in Fashion Design.
+          <br/>Discover Why We're the Right Choice for Your Wardrobe
+        </p>
+        <div class="choose__grid">
+          <div class="choose__card">
+            <span><i class="ri-truck-line"></i></span>
+            <h4>Fast & Free Shipping</h4>
+            <p>
+              Elevate your style with our Fast & Free Shipping service
+              without delay
+            </p>
+          </div>
+          <div class="choose__card">
+            <span><i class="ri-shopping-bag-3-line"></i></span>
+            <h4>Easy to Shop</h4>
+            <p>
+              Discover Effortless Elegance: Explore Our Easy-to-Shop Fashion
+              Solutions
+            </p>
+          </div>
+          <div class="choose__card">
+            <span><i class="ri-customer-service-2-line"></i></span>
+            <h4>24/7 Support</h4>
+            <p>
+              Experience peace of mind knowing that our dedicated team is
+              available round the clock for your fashion needs
+            </p>
+          </div>
+          <div class="choose__card">
+            <span><i class="ri-loop-right-line"></i></span>
+            <h4>Hassle Free Returns</h4>
+            <p>
+              We believe in the perfect fit, and if it doesn't quite match your style, we
+              make returning items a breeze
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="choose__image">
+        <img src="assets/choose-us.png" alt="choose" />
+      </div>
+</section>
+
+
+    <section class="offer__container" id="offer">
+      <div class="offer__grid__top">
+        <img src="assets/pink-1.png" alt="offer" />
+        <img src="assets/pink-2.png" alt="offer" />
+        <img src="assets/pink-3.png" alt="offer" />
+        <div class="offer__content">
+          <h2 class="section__header">Smart Offers</h2>
+          <p class="section__subheader">
+            Explore our exclusive deals to transform your wardrobe with style
+          </p>
+          <button class="btn">Explore Now</button>
+        </div>
+      </div>
+      <div class="offer__grid__bottom">
+        <img src="assets/pink-4.png" alt="offer" />
+        <img src="assets/pink-5.png" alt="offer" />
+        <img src="assets/pink-6.png" alt="offer" />
+        <img src="assets/pink-7.png" alt="offer" />
+      </div>
+    </section>
+
+    <section class="section__container craft__container" id="craft">
+      <div class="craft__content">
+        <h2 class="section__header">Crafted with the best Fabric</h2>
+        <p class="section__subheader">
+          Elevate Your Space with Quality and Style
+        </p>
+        <button class="btn">Explore</button>
+      </div>
+      <div class="craft__image">
+        <div class="craft__image__content">
+          <img src="assets/clothe-1.png" alt="craft" />
+          <p>Bubblegum Tee</p>
+          <h4>$65.00</h4>
+        </div>
+        <a href="#"><i class="ri-add-line"></i></a>
+      </div>
+      <div class="craft__image">
+        <div class="craft__image__content">
+          <img src="assets/clothe-2.png" alt="craft" />
+          <p>90s' Rock Skirt</p>
+          <h4>$50.00</h4>
+        </div>
+        <a href="#"><i class="ri-add-line"></i></a>
+      </div>
+      <div class="craft__image">
+        <div class="craft__image__content">
+          <img src="assets/clothe-3.png" alt="craft" />
+          <p>Pastel Hoodie</p>
+          <h4>$70.00</h4>
+        </div>
+        <a href="#"><i class="ri-add-line"></i></a>
+      </div>
+    </section>
+
+    <section class="section__container modern__container" id="modern">
+      <div class="modern__image">
+        <img src="assets/pink-dots.png" alt="bg" class="modern__bg" />
+        <img src="assets/pinky-1.png" alt="modern" class="pinky__img-1" />
+        <img src="assets/pinky-2.png" alt="modern" class="pinky__img-2" />
+        <img src="assets/pinky-3.png" alt="modern" class="pinky__img-3" />
+      </div>
+      <div class="modern__content">
+        <h2 class="section__header">
+          Redefine Your Fashion Sense with Pink Vogue
+        </h2>
+        <p class="section__subheader">
+          Elevate Your Wardrobe with Our Contemporary Fashion Expertise:
+          Let us guide you in curating chic and stylish outfits that reflect
+          your individual style and lifestyle.
+        </p>
+        <div class="modern__grid">
+          <div class="modern__card">
+            <span><i class="ri-checkbox-blank-circle-line"></i></span>
+            <p>
+              Our team specializes in curating personalized fashion collections that
+              embrace modern aesthetics.
+            </p>
+          </div>
+          <div class="modern__card">
+            <span><i class="ri-checkbox-blank-circle-line"></i></span>
+            <p>
+              We stay at the forefront of fashion trends, ensuring your wardrobe is
+              stylish and innovative.
+            </p>
+          </div>
+          <div class="modern__card">
+            <span><i class="ri-checkbox-blank-circle-line"></i></span>
+            <p>
+              Modern fashion isn't just about aesthetics; it's about
+              comfort and confidence too.
+            </p>
+          </div>
+          <div class="modern__card">
+            <span><i class="ri-checkbox-blank-circle-line"></i></span>
+            <p>
+              We take care of all aspects of the fashion curation process, from concept to
+              selection and styling.
+            </p>
+          </div>
+        </div>
+        <button class="btn">Explore</button>
+      </div>
+    </section>
+    
+
+    <section class="section__container testimonial__container" id="testimonial">
+      <h2 class="section__header">Fashionistas Love Pink Vogue</h2>
+      <!-- Slider main container -->
+      <div class="swiper">
+        <!-- Additional required wrapper -->
+        <div class="swiper-wrapper">
+          <!-- Slides -->
+          <div class="swiper-slide">
+            <div class="testimonial__card">
+              <p>
+                Shopping at Pink Vogue was an absolute delight! Their trendy fashion
+                expertise completely transformed my wardrobe into a chic
+                collection. I now have outfits that not only look stunning but also
+                make me feel incredibly confident. I couldn't be happier with the
+                results.
+              </p>
+              <img src="assets/profile-pic-1.jpg" alt="testimonial" />
+              <h4>Emma Taylor</h4>
+              <h5>Fashion Blogger</h5>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="testimonial__card">
+              <p>
+                Pink Vogue exceeded my expectations. Their fashion-forward concepts
+                brought new life to my style, making it both trendy and
+                sophisticated. The team's attention to detail and commitment to
+                quality are truly commendable.
+              </p>
+              <img src="assets/profile-pic-2.jpg" alt="testimonial" />
+              <h4>Alex Parker</h4>
+              <h5>Style Enthusiast</h5>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="testimonial__card">
+              <p>
+                I had a vision of a vibrant and stylish wardrobe, and Pink Vogue
+                brought it to life flawlessly. Their stylists understood my aesthetic
+                and incorporated trendy pieces, creating a fashionable oasis. I'm in
+                love with my modern, clutter-free closet!
+              </p>
+              <img src="assets/profile-pic-3.jpg" alt="testimonial" />
+              <h4>Olivia Johnson</h4>
+              <h5>Fashion Influencer</h5>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="testimonial__card">
+              <p>
+                What sets Pink Vogue apart is their professionalism and efficiency.
+                They made the entire shopping process hassle-free, from the initial
+                selection to the final fitting. The team handled everything,
+                leaving me with a beautifully curated fashion collection.
+              </p>
+              <img src="assets/profile-pic-4.jpg" alt="testimonial" />
+              <h4>Nathan Adams</h4>
+              <h5>Entrepreneur</h5>
+            </div>
+          </div>
+        </div>
+        <!-- Swiper slider/ pagination -->
+        <div class="swiper-pagination"></div>
+      </div>
+    </section>
+    
+
+    <section class="section__container blog_container" id="blog">
+      <h2 class="section__header">Latest From Our Blog</h2>
+      <div class="blog__grid">
+        <div class="blog__card">
+          <img src="assets/blog-1.png" alt="blog" />
+          <h4>Unlocking the Secrets of Timeless Elegance</h4>
+          <p><span>by</span> StyleMaven <span>on</span> May 12th, 2024</p>
+        </div>
+        <div class="blog__card">
+          <img src="assets/blog-2.png" alt="blog" />
+          <h4>The Marriage of Nature and Design</h4>
+          <p>
+            <span>by</span> EcoChicLiving <span>on</span> June 5th, 2024
+          </p>
+        </div>
+        <div class="blog__card">
+          <img src="assets/blog-3.png" alt="blog" />
+          <h4>Bold and Beautiful: Embracing Vibrant Hues</h4>
+          <p><span>by</span> ColorfulTrends <span>on</span> July 20th, 2024</p>
+        </div>
+      </div>
+    </section>
+    
+
+    <footer class="footer">
+      <div class="section__container footer__container">
+        <div class="footer__content">
+          <h4>SUBSCRIBE TO GET THE LATEST NEWS ABOUT US</h4>
+          <p>
+            We recommend you to subscribe to our newspaper. Enter your email to
+            get our daily updates about us
+          </p>
+        </div>
+        <div class="footer__form">
+          <form action="/">
+            <input type="text" placeholder="Enter your email" />
+            <button>Subscribe</button>
+          </form>
+        </div>
+      </div>
+      <div class="section__container footer__bar">
+        <div class="footer__logo">
+          <h4><a href="#">PinkVogue</a></h4>
+          <p>Copyright © 2024 Day 33/100. All rights reserved.</p>
+        </div>
+        <ul class="footer__nav">
+          <li class="footer__link"><a href="#">About</a></li>
+          <li class="footer__link"><a href="#">Partnership</a></li>
+          <li class="footer__link"><a href="#">Privacy Policy</a></li>
+        </ul>
+      </div>
+    </footer>
+
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+    <script src="main.js"></script>
+  </body>
+</html>
